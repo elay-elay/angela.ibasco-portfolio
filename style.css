@@ -2248,3 +2248,23 @@ p,
 .projects-content .project .project-points li::before {
   background: var(--rs-lime);
 }
+
+#resume.resume-section {
+  background: #474B4F;
+}
+
+.contact-section {
+  position: relative;
+  background: #222629;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(1180px, calc(100% - 40px));
+  height: 3px;
+  background: #86C232;
+  transform: translateX(-50%);
+}
